@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <link rel="icon" type="image/x-icon" href="images/basic/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viththagan</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/basic/Artboard%201.png" class="logo" alt="">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Computer Science Student</p>
+                <h1>Hi, I'm <span>Viththagan</span><br>From Sri Lanka.</h1>
+            </div>
+        </div>
+    </div>
+    <!--about-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col1">
+                    <img src="images/basic/MY.png" alt="">
+                </div>
+                <div class="about-col2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I am Viththagan from Jaffna, Sri Lanka. I am a Computer Science undergraduate student in University of Jaffna.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li>
+                                <span>Web Development</span>
+                                <br>Web app Development using Html, CSS, JS, PHP.
+                            </li>
+                            <li>
+                                <span>Object Oriented Programming</span>
+                                <br>Java, Python.
+                            </li>
+                            <li>
+                                <span>Video Editing and VFX</span>
+                                <br>Adobe Premiere Pro, Adobe After Effects.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li>
+                                <span>Online shopping web system - 2020</span>
+                                <br>Designing and Developing an online shop website <a class="web-links" target="_blank" href="https://vkqube2022.000webhostapp.com/">VKQube</a> (Group Project).
+                            </li>
+                            <li>
+                                <span>VFX - 2021</span>
+                                <br>Visual effects of song <a class="web-links" target="_blank" href="https://youtu.be/mI18BF2XiWc">Narumugaye </a>.
+                            </li>
+                            <li>
+                                <span>Editing and Cinematography - 2022</span>
+                                <br>Edit & Cinematography -  <a class="web-links" target="_blank" href="https://youtu.be/TN3ERlsGJ1s">Poimaiyum Vaaimaiyidaththu Short Film </a>.
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2009 - 2018</span><br>Jaffna Hindu College.</li>
+                            <li><span>2021 - Present</span><br>BSc Computer Science - University of Jaffna.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services-->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>I can design and implement a web application using Html, CSS ,Javascript, PHP and MySQL.</p>
+                    <a href="#" style="display: none">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-film"></i>
+                    <h2>Video Editing & VFX</h2>
+                    <p>I can edit short films and do visual effects.<br>Tools - Adobe Premiere Pro, Adobe After Effects.</p>
+                    <a href="#" style="display: none">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/works/work-1.jpeg" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>An online shopping website we have created as a group project.</p>
+                        <a href="https://vkqube2022.000webhostapp.com/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/works/work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Visual effects(Narumugaye)</h3>
+                        <p>Visual effects - After Effects, Premiere Pro.</p>
+                        <a href="https://youtu.be/mI18BF2XiWc"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a style="display: none" href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!--contact-->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p style="display: none"><i class="fa-solid fa-paper-plane"></i></p>
+                    <p style="display: none"><i class="fa-solid fa-square-phone"></i></p>
+                    <div class="social-icons">
+                        <a href="https://facebook.com/viththagan.roynesarajah"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/viththagan-roy-nesarajah"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/RNViththagan"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a style="display: none" href="docs/my-cv.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright 2023 &copy; Roy Nesarajah Viththagan</p>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwol-f0v7eyui8NQ4CuY30xIRGCQJ7sIzSCgAxT_DzHDjilRz50zCCY1MP3JQqfXi_l/exec';
+        const form = document.forms['submit-to-google-sheet'];
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully!";
+                    setTimeout(function() {
+                        msg.innerHTML = ""
+                    }, 5000);
+                    form.reset();
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+
+    </script>
+</body>
+
+</html>
